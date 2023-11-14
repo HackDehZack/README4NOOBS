@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// Create a function that returns the license section of README
+// Create a function that returns the license section of the README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
@@ -55,10 +55,10 @@ ${data.usage}
 ${renderLicenseSection(data.license)}
 
 ## Contributing
-${data.contributing}
+${data.contribution}
 
 ## Tests
-${data.tests}
+${data.test}
 
 ## Questions
 If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.github}.

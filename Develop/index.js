@@ -55,23 +55,21 @@ const questions = [
 
 
 
-// Created a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        if (err) throw err;
-        console.log('The file has been saved!');
-      });
-}
-
-// Created a function to initialize app
-
-function init() {
-    inquirer.prompt(questions)
-    .then((response) => {
-        console.log(response);
-})
-}
-
-// Function call to initialize app
-init();
-
+      if (err) throw err;
+      console.log('The file has been saved!');
+    });
+  }
+  
+  // Modify the init function to call writeToFile and pass the generated README content
+  function init() {
+    inquirer.prompt(questions).then((response) => {
+      const readmeContent = generateMarkdown(response);
+      writeToFile('README.md', readmeContent);
+    });
+  }
+  
+  // Function call to initialize app
+  init();
