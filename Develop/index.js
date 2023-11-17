@@ -1,3 +1,6 @@
+
+const generateMarkdown = require ('utils/generateMarkdown.js') 
+
 // Included packages needed for this application
 
 const inquirer = require('inquirer');
