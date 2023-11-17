@@ -1,5 +1,5 @@
 
-const generateMarkdown = require ('utils/generateMarkdown.js') 
+const generateMarkdown = require ('./utils/generateMarkdown.js') 
 
 // Included packages needed for this application
 
