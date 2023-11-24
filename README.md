@@ -3,7 +3,8 @@ This is a README generator project. The purpose of this application is to genera
 
 
 Video Demo
-~
+[Untitled_ Nov 22, 2023 3_14 PM.webm](https://github.com/HackDehZack/README4NOOBS/assets/140559436/a5b93339-3e89-4975-9289-4aaf58fb43a0)
+
 
 
 Installation
@@ -33,6 +34,10 @@ To test the application, follow these steps:
 
 Open the terminal and navigate to the project directory.
 Run the command npm test.
+
+Sample
+The sample README that was generated in the guide video is in the develop folder labeled "SampleREADME"
+
 License
 This project is licensed under the MIT License.
 
